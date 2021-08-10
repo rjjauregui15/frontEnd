@@ -1,0 +1,32 @@
+body {
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+.flexbox-container{
+    display: flex;
+    background: green;
+    margin: 1rem;
+    justify-content:
+}
+
+.flexbox-item {
+    width: 15%;
+    background: #ff652f;
+    border: 3px solid #272727;
+    color: #fff;
+    font-size: 2em;
+    padding: 1.25em;
+    margin: 0.625rem;
+}
+
+.item-1 {
+    min-height: 50px;
+} 
+.item-2 {
+    min-height: 100px;
+}  
+.item-3 {
+    min-height: 250px;
+}
