@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/theme_90s.jpeg");
+}
+
+header {
+    text-align: center;
+    background: whitesmoke;
+    padding: 2rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.greating {
+    background: rgb(165, 104, 104);
+    text-align: center;
+    padding: 2rem;
+}
+
+// next thing to work on will be getting those divs in theew
+ and to start inporting cooll shit
+
+
