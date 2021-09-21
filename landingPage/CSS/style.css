@@ -2,17 +2,32 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
     background-image: url("../images/theme_90s.jpeg");
 }
 
-header {
+/* header {
     text-align: center;
     background: whitesmoke;
     padding: 2rem;
+} */
+
+.sideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 250px;
+    background: chartreuse;
+    position: relative;
+    padding: 10px 20px;
+   
 }
 
 ul li {
@@ -30,7 +45,29 @@ ul li a {
     padding: 2rem;
 }
 
-// next thing to work on will be getting those divs in theew
- and to start inporting cooll shit
+.sellingPoints {
+    text-align: center;
+    color: rgb(211, 226, 0);
+}
 
+.example-1 {
+    background-color: salmon;
+    
+    width: 30%;
+    margin: 10% auto;
+    padding: 30% 45%;
+
+}
+.example-2 {
+    background-color: salmon;
+    width: 30%;
+    margin: 10% auto;
+    padding: 30% 45%;
+}
+.example-3 {
+    background-color: salmon;
+    width: 30%;
+    margin: 10% auto;
+    padding: 30% 45%;
+}
 
