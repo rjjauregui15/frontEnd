@@ -5,12 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-body {
+/* body {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../images/theme_90s.jpeg");
-}
+ 
+} */
 
 /* header {
     text-align: center;
@@ -22,12 +22,12 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100px;
-    width: 250px;
-    background: chartreuse;
-    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 250px;  /* change this and padding */
+    background: rgb(79, 141, 146);
     padding: 10px 20px;
-   
+    overflow-x: hidden;   
 }
 
 ul li {
