@@ -3,20 +3,35 @@
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+    /* background: lightcoral; */
+    
     
 }
 /* body {
-    position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
  
 } */
 
-/* header {
-    text-align: center;
-    background: whitesmoke;
+.headerBar {
     padding: 2rem;
-} */
+    display: flex;
+    z-index: 0;
+    
+}
+
+.menuButton {
+    
+    background: none;
+    font-size: 2rem;
+    border: none;
+    text-align: center;
+}
+
+.headerBar h1 {
+    margin-left: 15%;
+    text-align: center;
+}
 
 .sideBar {
     position: fixed;
@@ -24,19 +39,34 @@
     left: 0;
     z-index: 1;
     height: 100%;
-    width: 250px;  /* change this and padding */
+    width: 40%;
+    text-align: center;
     background: rgb(79, 141, 146);
-    padding: 10px 20px;
     overflow-x: hidden;   
+    transition: all 0.3s ease;
 }
+
+.sideBarButton {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+/* .navLinks {
+    display: flex;
+} */
 
 ul li {
     list-style: none;
+    margin-top: 20%;
+    
 }
 
 ul li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .greating {
@@ -71,3 +101,12 @@ ul li a {
     padding: 30% 45%;
 }
 
+ button:hover {
+    cursor: pointer;
+  }
+
+@media (min-width:750px) {
+    header h1 {
+        margin: auto;
+    }
+}
