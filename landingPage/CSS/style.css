@@ -3,35 +3,38 @@
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+    /* background: #003F88; */
     /* background: lightcoral; */
-    
     
 }
 /* body {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
+    background: black;
  
 } */
 
 .headerBar {
     padding: 2rem;
     display: flex;
+    justify-content: space-around;
     z-index: 0;
-    
+    background: whitesmoke;
+    color: rgb(2, 121, 196);
 }
 
 .menuButton {
-    
     background: none;
     font-size: 2rem;
     border: none;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.headerBar h1 {
-    margin-left: 15%;
-    text-align: center;
+.cartButton {
+    border: none;
+    /* color: rgb(2, 121, 196); */
 }
+
 
 .sideBar {
     position: fixed;
@@ -39,11 +42,13 @@
     left: 0;
     z-index: 1;
     height: 100%;
-    width: 40%;
-    text-align: center;
-    background: rgb(79, 141, 146);
+    width: 50%;
+    text-align: left;
+    background: #5babfa;
+    color: #FFD500;
     overflow-x: hidden;   
     transition: all 0.3s ease;
+    
 }
 
 .sideBarButton {
@@ -53,6 +58,7 @@
     background: none;
     border: none;
     font-size: 2rem;
+    
 }
 /* .navLinks {
     display: flex;
@@ -61,12 +67,20 @@
 ul li {
     list-style: none;
     margin-top: 20%;
-    
+    margin-left: 20px;
 }
 
 ul li a {
     text-decoration: none;
     font-size: 1.5rem;
+    color: blanchedalmond;
+    
+    
+}
+
+.fas, .far{
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 .greating {
@@ -100,6 +114,18 @@ ul li a {
     margin: 10% auto;
     padding: 30% 45%;
 }
+
+
+.dimOver {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+
 
  button:hover {
     cursor: pointer;
