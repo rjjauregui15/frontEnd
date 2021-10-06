@@ -15,10 +15,12 @@
 } */
 
 .headerBar {
+    position: sticky;
+    top:0;
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    z-index: 0;
+    z-index: 1;
     background: whitesmoke;
     color: rgb(2, 121, 196);
 }
@@ -32,6 +34,7 @@
 
 .cartButton {
     border: none;
+    background: whitesmoke;
     /* color: rgb(2, 121, 196); */
 }
 
@@ -40,7 +43,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     height: 100%;
     width: 50%;
     text-align: left;
@@ -74,8 +77,6 @@ ul li a {
     text-decoration: none;
     font-size: 1.5rem;
     color: blanchedalmond;
-    
-    
 }
 
 .fas, .far{
@@ -84,9 +85,42 @@ ul li a {
 }
 
 .greating {
-    background: rgb(165, 104, 104);
+    position: relative;
     text-align: center;
-    padding: 2rem;
+    padding: 6rem;
+}
+
+
+
+.greating::before {
+    content: "";
+    background-image: url("../images/banana_backdrop.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+
+}
+
+.greating * {
+    position: relative;
+}
+
+.callButton1 {
+    margin-top: 2.5rem;
+    background-color: #fa4b3e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 10px;
 }
 
 .sellingPoints {
@@ -123,9 +157,8 @@ ul li a {
     height: 0;
     top: 0;
     left: 0;
+    z-index: 2;
 }
-
-
 
  button:hover {
     cursor: pointer;
