@@ -38,3 +38,7 @@ function OpenSideBar(event){
 // finish layout of all other componets/ other javascript functionality 
 // make it look pretty
 // moving it to full page dynamic
+
+
+
+// get overly over the imagr of the banana

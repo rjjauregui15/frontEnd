@@ -128,26 +128,100 @@ ul li a {
     color: rgb(211, 226, 0);
 }
 
-.example-1 {
+.container {
+
     background-color: salmon;
-    
+    width: 90%;
+    height: 300px;
+    margin: 10% auto;
+
+    /* position: relative;
     width: 30%;
     margin: 10% auto;
+    padding: 30% 45%;
+    background: lime; */
+
+    /* position: relative;
+    width: 500px;
+    background: lime;
+    padding: 30% 45%; */
+}
+
+
+
+.image {
+
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+
+    /* position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; */
+}
+
+
+
+.overLay {
+  
+    /* position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; */
+
+    /* width: 100%;
+    height: 100%; 
+    background-color: #008CBA;   */
+   
+    /* position: relative;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease; */
+
+
+    
+}
+
+
+/* .example-1 {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
     padding: 30% 45%;
 
-}
-.example-2 {
+
+
+} */
+
+/* .example-2 {
+    background-color: salmon;
+    width: 90%;
+    height: 300px;
+    margin: 10% auto;
+   
+    
+} */
+/* .example-3 {
     background-color: salmon;
     width: 30%;
     margin: 10% auto;
     padding: 30% 45%;
-}
-.example-3 {
-    background-color: salmon;
-    width: 30%;
-    margin: 10% auto;
-    padding: 30% 45%;
-}
+} */
 
 
 .dimOver {
