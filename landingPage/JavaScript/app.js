@@ -21,7 +21,11 @@ function OpenSideBar(event){
     console.log("GeeksforGeeks2222");
     sideBar.style.width = "50%";
 
-    document.querySelector('.dimOver').style.height = "100%";
+    document.querySelector('.dimOver').style.height = "200%";
+    // document.querySelector('.dimOver').style.top = "100%";
+    // document.querySelector('.dimOver').style.bottom = "100%";
+    // document.querySelector('.dimOver').style.right = "100%";
+    // document.querySelector('.dimOver').style.left = "100%";
 
     // document.body.style.background = "rgba(0, 0, 0, 0.5)";
     // document.querySelector('body').style.filter = "brightness(50%)";
@@ -42,3 +46,10 @@ function OpenSideBar(event){
 
 
 // get overly over the imagr of the banana
+
+
+
+// get the "why our bananas" loking nice
+// get diffrint photosfor the images
+// get funny text for each overlay 
+// thoink of nect module

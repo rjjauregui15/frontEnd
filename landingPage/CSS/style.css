@@ -45,7 +45,7 @@
     left: 0;
     z-index: 3;
     height: 100%;
-    width: 50%;
+    width: 0px;
     text-align: left;
     background: #5babfa;
     color: #FFD500;
@@ -130,9 +130,9 @@ ul li a {
 
 .container {
 
-    background-color: salmon;
+   
     width: 90%;
-    height: 300px;
+    height: 500px;
     margin: 10% auto;
 
     /* position: relative;
@@ -187,8 +187,39 @@ ul li a {
     transition: .5s ease; */
 
 
+    position: relative;
     
+    top: -101%;
+    height: 100%;
+    width: 0;
+    left: 100%;
+    background-color: #004CBA;
+    overflow: hidden;
+    transition: .5s ease;
+    text-align: center;
+    
+
 }
+
+.container:hover .overLay{
+    width: 100%;
+    left: 0;
+}
+
+.text {
+   
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
 
 
 /* .example-1 {
@@ -228,10 +259,12 @@ ul li a {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 0;
+    height: 0%;
     top: 0;
     left: 0;
+  
     z-index: 2;
+    
 }
 
  button:hover {
