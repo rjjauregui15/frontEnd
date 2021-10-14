@@ -51,6 +51,7 @@
     color: #FFD500;
     overflow-x: hidden;   
     transition: all 0.3s ease;
+    /* transition: opacity 0.3s, transform 0.2s ease-in-out;  */
     
 }
 
@@ -126,6 +127,13 @@ ul li a {
 .sellingPoints {
     text-align: center;
     color: rgb(211, 226, 0);
+    background: rgb(252, 250, 247);
+}
+
+.sellingPoints h2 {
+    font-size: 2.5rem;
+    color:#0d6dce;
+    margin-top: 2rem;;
 }
 
 .container {
@@ -193,9 +201,10 @@ ul li a {
     height: 100%;
     width: 0;
     left: 100%;
-    background-color: #004CBA;
+    background-color: #004dba8e;
     overflow: hidden;
-    transition: .5s ease;
+    transition: .2s ease;
+    /* transition: opacity 0.3s, transform 0.2s ease-in-out; */
     text-align: center;
     
 
@@ -207,15 +216,11 @@ ul li a {
 }
 
 .text {
-   
-    white-space: nowrap; 
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50%;
 
   }
 

@@ -49,7 +49,10 @@ function OpenSideBar(event){
 
 
 
-// get the "why our bananas" loking nice
-// get diffrint photosfor the images
-// get funny text for each overlay 
+//* get the "why our bananas" loking nice
+//* get diffrint photos for the images
+//*get funny text for each overlay 
+// fix overlay text
 // thoink of nect module
+// view our bundels 
+// out troll/ aybe change some colors of buttons
