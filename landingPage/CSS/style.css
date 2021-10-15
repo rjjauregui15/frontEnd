@@ -206,6 +206,7 @@ ul li a {
     transition: .2s ease;
     /* transition: opacity 0.3s, transform 0.2s ease-in-out; */
     text-align: center;
+    justify-content: center;
     
 
 }
@@ -218,11 +219,43 @@ ul li a {
 .text {
     color: white;
     font-size: 2rem;
-    position: absolute;
-    text-align: center;
-    margin-top: 50%;
+    margin-top: 25%;
+ 
+    
+    
 
   }
+
+
+.user {
+    font-size: 1.5rem;
+   
+}
+
+.userInfo {
+    padding: 25px;
+}
+
+.userImage {
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;;
+    
+   
+}
+
+.comment {
+
+
+    padding: 25px;;
+    
+}
+
+
+
+
 
 
 

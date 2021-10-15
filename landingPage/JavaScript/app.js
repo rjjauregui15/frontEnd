@@ -52,7 +52,10 @@ function OpenSideBar(event){
 //* get the "why our bananas" loking nice
 //* get diffrint photos for the images
 //*get funny text for each overlay 
-// fix overlay text
-// thoink of nect module
-// view our bundels 
-// out troll/ aybe change some colors of buttons
+// *fix overlay text
+// *thoink of nect module
+// * get images for revirwers 
+// stlye review section
+// ending module where we sell one more time
+// style that above
+// stay in touch where they can follow in social media and email?
