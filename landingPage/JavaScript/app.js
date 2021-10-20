@@ -55,7 +55,8 @@ function OpenSideBar(event){
 // *fix overlay text
 // *thoink of nect module
 // * get images for revirwers 
-// stlye review section
-// ending module where we sell one more time
+// * stlye review section
+// * ending module where we sell one more time
+// * style that above
+// * stay in touch where they can follow in social media and email?
 // style that above
-// stay in touch where they can follow in social media and email?

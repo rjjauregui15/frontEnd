@@ -221,9 +221,6 @@ ul li a {
     font-size: 2rem;
     margin-top: 25%;
  
-    
-    
-
   }
 
 
@@ -302,6 +299,47 @@ ul li a {
     margin: 10% auto;
     padding: 30% 45%;
 } */
+
+
+.tryTwo {
+    position: relative;
+    text-align: center;
+    margin-top: 2rem;;
+    padding: 6rem;
+    color: rgb(7, 62, 165);
+    
+}
+
+.tryTwo::before {
+    content: "";
+    background-image: url("../images/many_bananas.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.tryTwo .pitch {
+    font-size: 1.25rem;
+}
+
+.tryTwo * {
+    position: relative;
+   
+}
+
+.outro {
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
 
 
 .dimOver {
