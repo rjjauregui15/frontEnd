@@ -3,16 +3,7 @@
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
-    /* background: #003F88; */
-    /* background: lightcoral; */
-    
 }
-/* body {
-    width: 100%;
-    height: 100%;
-    background: black;
- 
-} */
 
 .headerBar {
     position: sticky;
@@ -29,13 +20,11 @@
     background: none;
     font-size: 2rem;
     border: none;
-    /* text-align: center; */
 }
 
 .cartButton {
     border: none;
     background: whitesmoke;
-    /* color: rgb(2, 121, 196); */
 }
 
 
@@ -51,8 +40,6 @@
     color: #FFD500;
     overflow-x: hidden;   
     transition: all 0.3s ease;
-    /* transition: opacity 0.3s, transform 0.2s ease-in-out;  */
-    
 }
 
 .sideBarButton {
@@ -61,12 +48,8 @@
     right: 5px;
     background: none;
     border: none;
-    font-size: 2rem;
-    
+    font-size: 2rem;  
 }
-/* .navLinks {
-    display: flex;
-} */
 
 ul li {
     list-style: none;
@@ -91,8 +74,6 @@ ul li a {
     padding: 6rem;
 }
 
-
-
 .greating::before {
     content: "";
     background-image: url("../images/banana_backdrop.jpg");
@@ -104,7 +85,6 @@ ul li a {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-
 }
 
 .greating * {
@@ -137,66 +117,20 @@ ul li a {
 }
 
 .container {
-
-   
     width: 90%;
     height: 500px;
     margin: 10% auto;
-
-    /* position: relative;
-    width: 30%;
-    margin: 10% auto;
-    padding: 30% 45%;
-    background: lime; */
-
-    /* position: relative;
-    width: 500px;
-    background: lime;
-    padding: 30% 45%; */
 }
-
-
 
 .image {
 
     width: 100%;
     height: 100%; 
     object-fit: cover;
-
-    /* position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; */
 }
 
-
-
 .overLay {
-  
-    /* position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%; */
-
-    /* width: 100%;
-    height: 100%; 
-    background-color: #008CBA;   */
-   
-    /* position: relative;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    transition: .5s ease; */
-
-
     position: relative;
-    
     top: -101%;
     height: 100%;
     width: 0;
@@ -204,29 +138,24 @@ ul li a {
     background-color: #004dba8e;
     overflow: hidden;
     transition: .2s ease;
-    /* transition: opacity 0.3s, transform 0.2s ease-in-out; */
     text-align: center;
     justify-content: center;
-    
-
 }
 
 .container:hover .overLay{
     width: 100%;
     left: 0;
+    padding: 1rem;
 }
 
 .text {
     color: white;
     font-size: 2rem;
     margin-top: 25%;
- 
   }
-
 
 .user {
     font-size: 1.5rem;
-   
 }
 
 .userInfo {
@@ -238,68 +167,21 @@ ul li a {
 }
 
 .userImage {
-    /* border-style: solid;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px; */
     border-radius: 50%;
     width: 200px;
     height: 200px;
     background-position: center;
     background-size: 200px 200px
-   
 }
 
 .comment {
-
-
     padding: 25px;;
-    
 }
 
-.fa-star,.fa-star-o,.fa-star-half-o{
+.fa-star,.fa-star-o,.fa-star-half-o {
     color:#FDC91B;
     font-size:25px !important;
-    }
-
-
-
-
-
-
-/* .example-1 {
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    
-    padding: 30% 45%;
-
-
-
-} */
-
-/* .example-2 {
-    background-color: salmon;
-    width: 90%;
-    height: 300px;
-    margin: 10% auto;
-   
-    
-} */
-/* .example-3 {
-    background-color: salmon;
-    width: 30%;
-    margin: 10% auto;
-    padding: 30% 45%;
-} */
-
+}
 
 .tryTwo {
     position: relative;
@@ -307,7 +189,6 @@ ul li a {
     margin-top: 2rem;;
     padding: 6rem;
     color: rgb(7, 62, 165);
-    
 }
 
 .tryTwo::before {
@@ -338,9 +219,23 @@ ul li a {
     margin-top: 3rem;
 }
 
+.outro h2 {
+    color: rgb(2, 121, 196);
+}
 
+.socialLinks .fab {
+    font-size: 2rem;
+    color: #fa4b3e;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
-
+.socialButton {
+    padding: 0;
+    border: none;
+    background: none;
+}
 
 .dimOver {
     position: absolute;
@@ -349,9 +244,7 @@ ul li a {
     height: 0%;
     top: 0;
     left: 0;
-  
-    z-index: 2;
-    
+    z-index: 2;  
 }
 
  button:hover {

@@ -59,4 +59,8 @@ function OpenSideBar(event){
 // * ending module where we sell one more time
 // * style that above
 // * stay in touch where they can follow in social media and email?
-// style that above
+// * style that above
+// change the font
+// make color cohecent
+// change color of button over hover
+
