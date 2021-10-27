@@ -2,19 +2,30 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.headerBarContainer {
+    position: sticky;
+    z-index: 1;
+    top:0;
 }
 
 .headerBar {
-    position: sticky;
     top:0;
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    z-index: 1;
-    background: whitesmoke;
+    /* z-index: 1; */
+    background: rgb(245, 244, 244);
     color: rgb(2, 121, 196);
+    /* flex-wrap: wrap; */
 }
+
+
+/* .h1 {
+    display: inline-block;
+} */
 
 .menuButton {
     background: none;
@@ -27,6 +38,38 @@
     background: whitesmoke;
 }
 
+.altMenu {
+    width: 100%;
+    background: rgb(18, 129, 198);
+    display: none;
+    /* display: none; */
+}
+
+.altNavLinks {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.altMenu ul li {
+    font-size: 1.5rem;
+    list-style: none;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.altMenu ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(252, 233, 205);
+}
+
+
+
+
+
+
 
 .sideBar {
     position: fixed;
@@ -36,8 +79,8 @@
     height: 100%;
     width: 0px;
     text-align: left;
-    background: #5babfa;
-    color: #FFD500;
+    background: rgb(91,171,250);
+    color: rgb(255,213,0);
     overflow-x: hidden;   
     transition: all 0.3s ease;
 }
@@ -51,16 +94,16 @@
     font-size: 2rem;  
 }
 
-ul li {
+.sideBar ul li {
     list-style: none;
     margin-top: 20%;
     margin-left: 20px;
 }
 
-ul li a {
+.sideBar ul li a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: blanchedalmond;
+    color: rgb(252, 233, 205);
 }
 
 .fas, .far{
@@ -72,6 +115,7 @@ ul li a {
     position: relative;
     text-align: center;
     padding: 6rem;
+    
 }
 
 .greating::before {
@@ -93,14 +137,14 @@ ul li a {
 
 .callButton1 {
     margin-top: 2.5rem;
-    background-color: #fa4b3e; /* Green */
+    background-color: rgb(250,75,62); 
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 100%;
     border-radius: 10px;
 }
 
@@ -112,8 +156,14 @@ ul li a {
 
 .sellingPoints h2 {
     font-size: 2.5rem;
-    color:#0d6dce;
-    margin-top: 2rem;;
+    color:rgb(13, 109, 206);
+    margin-top: 2rem;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.sellingContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -123,7 +173,6 @@ ul li a {
 }
 
 .image {
-
     width: 100%;
     height: 100%; 
     object-fit: cover;
@@ -149,7 +198,7 @@ ul li a {
 }
 
 .text {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     margin-top: 25%;
   }
@@ -179,8 +228,8 @@ ul li a {
 }
 
 .fa-star,.fa-star-o,.fa-star-half-o {
-    color:#FDC91B;
-    font-size:25px !important;
+    color: rgb(253,201,27);
+    font-size:25px;
 }
 
 .tryTwo {
@@ -188,7 +237,7 @@ ul li a {
     text-align: center;
     margin-top: 2rem;;
     padding: 6rem;
-    color: rgb(7, 62, 165);
+    color: rgb(1, 61, 129);
 }
 
 .tryTwo::before {
@@ -201,7 +250,7 @@ ul li a {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 0.6;
 }
 
 .tryTwo .pitch {
@@ -225,7 +274,7 @@ ul li a {
 
 .socialLinks .fab {
     font-size: 2rem;
-    color: #fa4b3e;
+    color: rgb(250,75,62);
     margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -247,12 +296,62 @@ ul li a {
     z-index: 2;  
 }
 
- button:hover {
+button:hover {
     cursor: pointer;
+    
   }
 
-@media (min-width:750px) {
+.menuButton:hover, .cartButton:hover, .fab:hover {
+    color: rgb(5, 120, 192);
+}
+
+.callButton1:hover {
+    background-color: rgb(255, 17, 0);
+}
+
+@media (min-width:1170px) {
     header h1 {
         margin: auto;
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .headerBar h1 {
+        margin-left: 30%;
+        font-size: 3rem;
+    }
+
+    .altMenu {
+        display: inline-block;
+    }
+
+    .cartButton i {
+        font-size: 2.25rem;
+    }
+    
+    .greating {
+        font-size: 2rem;
+    }
+    
+    .sellingPoints h2 {
+        font-size: 3.5rem;
+    }
+
+    .sellingContainer {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 90%;
+        height: 700px;
+        margin: 30px;
+        margin-bottom: 5%;
+    }
+
+    .user {
+        font-size: 1.5rem;
+        display: flex;
     }
 }

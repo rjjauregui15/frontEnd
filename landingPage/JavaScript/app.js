@@ -1,11 +1,14 @@
 //Selectors
+const headerBar = document.querySelector('.headerBar');
+const mediaWidth = matchMedia('(min-width: 1170px)');
+const menuBtn = document.querySelector('.menuButton');
 const sideBar = document.querySelector('.sideBar');
 const sideBarBtn = document.querySelector('.sideBarButton');
-const menuBtn = document.querySelector('.menuButton');
 
 //Event Listeners
 sideBarBtn.addEventListener('click', CloseSideBar);
 menuBtn.addEventListener('click', OpenSideBar);
+mediaWidth.addEventListener('change', menuChange);
 
 
 //Functions
@@ -20,20 +23,95 @@ function CloseSideBar(event){
 function OpenSideBar(event){
     console.log("GeeksforGeeks2222");
     sideBar.style.width = "50%";
-
     document.querySelector('.dimOver').style.height = "200%";
-    // document.querySelector('.dimOver').style.top = "100%";
-    // document.querySelector('.dimOver').style.bottom = "100%";
-    // document.querySelector('.dimOver').style.right = "100%";
-    // document.querySelector('.dimOver').style.left = "100%";
-
-    // document.body.style.background = "rgba(0, 0, 0, 0.5)";
-    // document.querySelector('body').style.filter = "brightness(50%)";
-    // sideBar.style.filter = "brightness(100%)";
+ 
 }
 
-// finish everything before we mess with more than 750px
-// even style
+
+// function menuChange(event){
+//     if(mediaWidth.matches == 1){
+//         console.log("yeerrrr")
+//         // create container 
+//         const menuAdd = document.createElement('div');
+//         menuAdd.classList.add('altMenu');
+//         menuAdd.style.width = '100%';
+//         menuAdd.style.background = 'rgb(18, 129, 198)';
+
+//         // create ul
+//         const altNavLinks = document.createElement('ul');
+//         altNavLinks.classList.add('altNavLinks');
+//         altNavLinks.style.display = 'flex';
+//         altNavLinks.style.justifyContent = 'center';
+//         altNavLinks.style.padding = '1rem';
+//         altNavLinks.style.gap = '5rem';
+
+//         // create li
+//         const caltMenuIcon = document.createElement('li');
+//         caltMenuIcon.classList.add('altMenuIcon');
+    
+//         // create a
+//         const homelink = document.createElement('a');
+//         homelink.innerText = 'home';
+
+
+
+// .altMenu {
+//     width: 100%;
+//     background: rgb(18, 129, 198);
+//     /* display: none; */
+// }
+
+// .altNavLinks {
+//     display: flex;
+//     justify-content: center;
+//     padding: 1rem;
+//     gap: 5rem;
+// }
+
+// .altMenu ul li {
+//     font-size: 1.5rem;
+//     list-style: none;
+//     margin-left: 20px;
+//     justify-content: center;
+// }
+
+// .altMenu ul li a {
+//     text-decoration: none;
+//     font-size: 1.5rem;
+//     color: rgb(252, 233, 205);
+// }
+
+
+
+
+
+
+//         menuAdd.style.width = '500px';
+//         menuAdd.style.display = 'block';
+//         //append to headerBar
+//         headerBar.appendChild(menuAdd);
+
+
+
+
+//         <div class="altMenu">
+//             <ul class="altNavLinks">
+//                 <li><i class="altMenuIcon"></i> <a href="#">Home</a></li>
+//                 <li><i class="altMenuIcon"></i> <a href="#">Deals</a></li>
+//                 <li><i class="altMenuIcon"></i> <a href="#">Gift Baskets</a></li>
+//                 <li><i class="altMenuIcon"></i> <a href="#">About Us</a></li>
+//                 <li><i class="altMenuIcon"></i> <a href="#">My Account</a></li>
+//             </ul>
+//         </div>
+
+
+
+
+
+        
+
+// }
+
 
 
 
@@ -42,13 +120,7 @@ function OpenSideBar(event){
 // finish layout of all other componets/ other javascript functionality 
 // make it look pretty
 // moving it to full page dynamic
-
-
-
 // get overly over the imagr of the banana
-
-
-
 //* get the "why our bananas" loking nice
 //* get diffrint photos for the images
 //*get funny text for each overlay 
