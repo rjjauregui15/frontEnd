@@ -16,16 +16,9 @@
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    /* z-index: 1; */
     background: rgb(245, 244, 244);
     color: rgb(2, 121, 196);
-    /* flex-wrap: wrap; */
 }
-
-
-/* .h1 {
-    display: inline-block;
-} */
 
 .menuButton {
     background: none;
@@ -42,7 +35,6 @@
     width: 100%;
     background: rgb(18, 129, 198);
     display: none;
-    /* display: none; */
 }
 
 .altNavLinks {
@@ -64,12 +56,6 @@
     font-size: 1.5rem;
     color: rgb(252, 233, 205);
 }
-
-
-
-
-
-
 
 .sideBar {
     position: fixed;
@@ -115,7 +101,6 @@
     position: relative;
     text-align: center;
     padding: 6rem;
-    
 }
 
 .greating::before {
@@ -259,7 +244,6 @@
 
 .tryTwo * {
     position: relative;
-   
 }
 
 .outro {
@@ -298,7 +282,6 @@
 
 button:hover {
     cursor: pointer;
-    
   }
 
 .menuButton:hover, .cartButton:hover, .fab:hover {
